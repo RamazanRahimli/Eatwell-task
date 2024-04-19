@@ -1,0 +1,141 @@
+header {
+  background-color: white;
+  width: 100%;
+}
+header .container {
+  background-color: transparent;
+  padding: 20px 0;
+}
+header .container h1 {
+  font-size: 20px;
+  color: black;
+}
+header .container .menuBox {
+  display: flex;
+  align-items: center;
+}
+header .container .menuBox ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+header .container .menuBox ul a {
+  text-decoration: none;
+  color: #D6D6D6;
+  transform: uppercase;
+  letter-spacing: 2.6px;
+}
+header .container .menuBox ul a:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+header .container .hamburgerBox {
+  display: none;
+}
+
+main #firstsectionBox {
+  min-height: 90vh;
+  background-image: url("../../../assets/IMAGE/bg_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+main #firstsectionBox .firstBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main #firstsectionBox .firstBox h1 {
+  color: #FFFFFF;
+  align-self: center;
+  font-size: 75px;
+  font-weight: 700;
+}
+main #firstsectionBox .firstBox span {
+  font-size: 20px;
+  font-weight: 300;
+  align-self: center;
+  color: #F8F9FA;
+}
+main #firstsectionBox .firstBox button {
+  width: 30%;
+  padding: 15px 25px;
+  align-self: center;
+  font-size: 16px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main #firstsectionBox .firstBox button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: black;
+}
+main #twosectionBox {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #twosectionBox .twoBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main #twosectionBox .twoBox .leftLogoBox {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main #twosectionBox .twoBox .leftLogoBox h3 {
+  letter-spacing: 8px;
+  font-size: 1em;
+  font-weight: 300;
+  color: #d4d4dd;
+  transform: uppercase;
+}
+main #twosectionBox .twoBox .leftLogoBox h1 {
+  color: black;
+  font-size: 56px;
+  font-weight: 300;
+}
+main #twosectionBox .twoBox .leftLogoBox span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #b8b8b8;
+}
+main #twosectionBox .twoBox .leftLogoBox button {
+  width: 50%;
+  padding: 15px 20px;
+  color: rgba(136, 136, 136, 0.5333333333);
+  background-color: transparent;
+  border: 2px solid rgba(136, 136, 136, 0.5333333333);
+}
+main #twosectionBox .twoBox .leftLogoBox button:hover {
+  background-color: yellow;
+  color: white;
+}
+main #twosectionBox .twoBox .rightLogoBox {
+  background-image: url("../../../assets/IMAGE/about_img_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 45%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
